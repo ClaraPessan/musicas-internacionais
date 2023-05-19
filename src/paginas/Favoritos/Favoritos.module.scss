@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: var(--azul-clarissimo);
+    margin: 1rem 20rem;
+    padding: 25px 0;
+}

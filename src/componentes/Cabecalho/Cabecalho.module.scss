@@ -1,0 +1,21 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: var(--azul-medio);
+    padding: 5px 60px;
+
+    a {
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    h2 {
+        font-weight: 600;
+    }
+
+    h4 {
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: var(--azul-clarissimo);
+    margin: 1rem 20rem;
+    padding: 25px 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {    
+    display: flex;
+    align-items: flex-end;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--verde-escuro);
+    width: 70%;
+    
+    &__musica {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__capa {
+        max-width: 30%;
+        border-radius: 6px;
+    }
+
+    &__titulo {
+        text-transform: uppercase;
+    }
+
+    &__cantor {
+        font-size: 0.90rem;
+    }
+
+    &__informacoes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__icone {
+        width: 32px;
+        padding-bottom: 12px;
+        padding-right: 12px;
+        cursor: pointer;
+    }
+}
+
